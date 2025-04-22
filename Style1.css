@@ -1,0 +1,163 @@
+/* Base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background: #000 !important;
+}
+
+.navbar .navbar-brand {
+  font-weight: 800;
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar .navbar-brand span {
+  color: #00d4ff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d4ff !important;
+}
+
+/* Hero section */
+.hero-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('../images/bg_1.jpg') no-repeat center center/cover;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-wrap .text {
+  z-index: 10;
+  position: relative;
+  color: #fff;
+}
+
+.hero-wrap h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-wrap h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #fff;
+}
+
+/* Mouse scroll icon */
+.mouse-icon {
+  display: inline-block;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.mouse-wheel {
+  display: block;
+  font-size: 24px;
+  animation: scrollDown 1.5s infinite;
+}
+
+@keyframes scrollDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+/* About section */
+#about-section {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.heading-section .big {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  font-size: 100px;
+  opacity: 0.1;
+  font-weight: 900;
+}
+
+.heading-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
+.about-info span:first-child {
+  font-weight: 600;
+  width: 150px;
+  display: inline-block;
+}
+
+.counter-wrap .text {
+  padding-top: 20px;
+}
+
+.counter-wrap .number {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+.btn-primary {
+  background: #00d4ff;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #009ec3;
+}
+.ftco-partner {
+  padding: 3em 0;
+  background: #f8f9fa;
+}
+
+.partner img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.partner img:hover {
+  opacity: 1;
+}
